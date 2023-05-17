@@ -2,7 +2,7 @@
 
 :root {
     --themecolor: rgba(104, 215, 246, 0.808);
-    --secondarycolor:rgba(122, 121, 121, 0.77);
+    --secondarycolor:#ddd;
     --thirdcolor:white;
 }
 
@@ -95,7 +95,7 @@
     height: 40px;
     margin-top: 30px;
     background-color: var(--secondarycolor);
-    color: var(--thirdcolor);
+    color: var(black);
     border: 0px;
     border-radius: 25px;
 }
@@ -125,12 +125,12 @@
     margin-left: 30px;
     border-radius: 5%;
     text-align: center;
-    color: var(--thirdcolor);
+    color: var(black);
 }
 
 .horLine {
     width: 70px;
-    background-color:var(--thirdcolor);
+    background-color:black;
     height: 1px;
     display: block;
     margin-left: 15px;
