@@ -96,7 +96,7 @@
     margin-top: 30px;
     background-color: var(--secondarycolor);
     color: var(black);
-    border: 0px;
+    border: solid black 1px;
     border-radius: 25px;
 }
 
@@ -104,11 +104,16 @@
     background-color: rgba(104, 215, 246, 0.762);
     width: 330px;
     height: 200px;
-    border-radius: 25px;
-    font-size: 23px;
+    border-radius: 10px;
+    font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-left: 10px;
+    border: solid black 1px;
+}
+
+.todayContainer h1 {
+    font-size: 30px;
 }
 
 
@@ -119,17 +124,18 @@
 }
 
 .allWeekContainer {
-    width: 100px;
+    width: 130px;
     height: 200px;
     background-color:var(--secondarycolor);
-    margin-left: 30px;
-    border-radius: 5%;
+    margin-left: 50px;
     text-align: center;
     color: var(black);
+    border: solid black 1px;
+    border-radius: 5px;
 }
 
 .horLine {
-    width: 70px;
+    width: 100px;
     background-color:black;
     height: 1px;
     display: block;
@@ -144,3 +150,15 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.data {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+
+.today-data {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+}
