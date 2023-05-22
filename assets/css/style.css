@@ -1,9 +1,15 @@
 
 
 :root {
-    --themecolor: rgba(104, 215, 246, 0.808);
+    --themecolor: #00539C;
     --secondarycolor:#ddd;
     --thirdcolor:white;
+}
+
+
+
+body {
+    background-color: #EEA47F;
 }
 
 .topHeader {
@@ -17,7 +23,7 @@
 
 .topHeader h1 {
     text-align: center;
-    color:var(--thirdcolor);
+    color:var(--themecolor);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     top: 10px;
@@ -38,9 +44,9 @@
     font-weight: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    top: -25px;
+    top: -30px;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 30px;
     width: 150px;
 }
 
@@ -54,7 +60,7 @@
     right: 50px;
     border: solid black 1px;
     border-radius: 10px;
-    background-color: rgba(172, 170, 170, 0.393);
+    background-color: #ddd;
 }
 
 .searchBar::placeholder {
@@ -71,7 +77,7 @@
     top: 70px;
     right: -280px;
     height: 40px;
-    background-color:  var(--themecolor);
+    background-color:  black;
     border-radius: 25px;
     color: var(--thirdcolor);
     border: 0px;
@@ -94,14 +100,14 @@
     width: 300px;
     height: 40px;
     margin-top: 30px;
-    background-color: var(--secondarycolor);
+    background-color: var(--themecolor);
     color: var(black);
     border: solid black 1px;
     border-radius: 25px;
 }
 
 .todayContainer {
-    background-color: rgba(104, 215, 246, 0.762);
+    background-color:var(--themecolor);
     width: 330px;
     height: 200px;
     border-radius: 10px;
@@ -162,3 +168,64 @@
     font-size: 15px;
     margin-left: 10px;
 }
+
+.todayContainer img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -100px;
+    right: -50px;
+}
+
+.allWeekContainer img {
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 375px) {
+  .heroContainer {
+    flex-direction: column;
+  }
+
+  .todayContainer {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  .allWeekContainer {
+    width: 100%;
+    margin: 10px 0;
+    margin-top: 10px;
+    
+  }
+
+  .buttonContainer{
+    position: relative;
+    right:-1190px;
+  }
+
+  .todayContainer img {
+    height: 300px;
+    width: 300px;
+}
+
+.allWeekContainer img {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -150px;
+    right: -470px;
+}
+
+.data {
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.dayDiv {
+    font-size: 40px;
+}
+}
+
